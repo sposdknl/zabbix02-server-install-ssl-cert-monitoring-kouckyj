@@ -9,6 +9,7 @@ apt update
 apt install -y zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sql-scripts zabbix-agent2
 apt install -y mysql-server
 apt install -y zabbix-agent2-plugin-mongodb zabbix-agent2-plugin-mssql zabbix-agent2-plugin-postgresql
+apt install -y jq
 
 # Inicializace databáze
 mysql -uroot -p123456789 <<EOF
